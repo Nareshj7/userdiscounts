@@ -1,6 +1,6 @@
 <?php
 
-namespace Codex\UserDiscounts\Traits;
+namespace Naresh\UserDiscounts\Traits;
 
 trait ResolvesUserModel
 {

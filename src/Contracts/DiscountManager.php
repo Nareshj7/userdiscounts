@@ -1,6 +1,6 @@
 <?php
 
-namespace Codex\UserDiscounts\Contracts;
+namespace Naresh\UserDiscounts\Contracts;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Collection;

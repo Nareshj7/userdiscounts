@@ -1,11 +1,11 @@
 <?php
 
-namespace Codex\UserDiscounts\Tests\Unit;
+namespace Naresh\UserDiscounts\Tests\Unit;
 
-use Codex\UserDiscounts\Contracts\DiscountManager;
-use Codex\UserDiscounts\Models\Discount;
-use Codex\UserDiscounts\Tests\Support\TestUser;
-use Codex\UserDiscounts\Tests\TestCase;
+use Naresh\UserDiscounts\Contracts\DiscountManager;
+use Naresh\UserDiscounts\Models\Discount;
+use Naresh\UserDiscounts\Tests\Support\TestUser;
+use Naresh\UserDiscounts\Tests\TestCase;
 use Illuminate\Support\Str;
 
 class DiscountManagerTest extends TestCase

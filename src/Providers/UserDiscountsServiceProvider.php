@@ -1,9 +1,9 @@
 <?php
 
-namespace Codex\UserDiscounts\Providers;
+namespace Naresh\UserDiscounts\Providers;
 
-use Codex\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
-use Codex\UserDiscounts\Services\DiscountManager;
+use Naresh\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
+use Naresh\UserDiscounts\Services\DiscountManager;
 use Illuminate\Support\ServiceProvider;
 
 class UserDiscountsServiceProvider extends ServiceProvider

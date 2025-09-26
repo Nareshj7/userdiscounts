@@ -5,14 +5,14 @@ Reusable Laravel package that manages deterministic user-level discount stacking
 ## Installation
 
 ```bash
-composer require codex-labs/user-discounts
+composer require naresh/user-discount
 ```
 
 Publish the configuration and migrations when installing into a Laravel app:
 
 ```bash
-php artisan vendor:publish --provider="Codex\UserDiscounts\Providers\UserDiscountsServiceProvider" --tag=user-discounts-config
-php artisan vendor:publish --provider="Codex\UserDiscounts\Providers\UserDiscountsServiceProvider" --tag=user-discounts-migrations
+php artisan vendor:publish --provider="Naresh\UserDiscounts\Providers\UserDiscountsServiceProvider" --tag=user-discounts-config
+php artisan vendor:publish --provider="Naresh\UserDiscounts\Providers\UserDiscountsServiceProvider" --tag=user-discounts-migrations
 ```
 
 ## Configuration
@@ -30,8 +30,8 @@ php artisan vendor:publish --provider="Codex\UserDiscounts\Providers\UserDiscoun
 Resolve the manager via the container or use the facade:
 
 ```php
-use Codex\UserDiscounts\Contracts\DiscountManager;
-use Codex\UserDiscounts\Facades\UserDiscounts;
+use Naresh\UserDiscounts\Contracts\DiscountManager;
+use Naresh\UserDiscounts\Facades\UserDiscounts;
 
 $manager = app(DiscountManager::class);
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Codex\UserDiscounts\Events;
+namespace Naresh\UserDiscounts\Events;
 
-use Codex\UserDiscounts\Models\Discount;
-use Codex\UserDiscounts\Models\UserDiscount;
+use Naresh\UserDiscounts\Models\Discount;
+use Naresh\UserDiscounts\Models\UserDiscount;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Codex\UserDiscounts\Models;
+namespace Naresh\UserDiscounts\Models;
 
-use Codex\UserDiscounts\Traits\ResolvesUserModel;
+use Naresh\UserDiscounts\Traits\ResolvesUserModel;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

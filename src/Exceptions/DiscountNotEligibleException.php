@@ -1,6 +1,6 @@
 <?php
 
-namespace Codex\UserDiscounts\Exceptions;
+namespace Naresh\UserDiscounts\Exceptions;
 
 class DiscountNotEligibleException extends DiscountException
 {

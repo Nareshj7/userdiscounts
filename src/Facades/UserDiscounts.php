@@ -1,8 +1,8 @@
 <?php
 
-namespace Codex\UserDiscounts\Facades;
+namespace Naresh\UserDiscounts\Facades;
 
-use Codex\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
+use Naresh\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
 use Illuminate\Support\Facades\Facade;
 
 /**

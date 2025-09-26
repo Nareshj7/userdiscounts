@@ -1,18 +1,18 @@
 <?php
 
-namespace Codex\UserDiscounts\Services;
+namespace Naresh\UserDiscounts\Services;
 
-use Codex\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
-use Codex\UserDiscounts\Events\DiscountApplied;
-use Codex\UserDiscounts\Events\DiscountAssigned;
-use Codex\UserDiscounts\Events\DiscountRevoked;
-use Codex\UserDiscounts\Exceptions\DiscountException;
-use Codex\UserDiscounts\Exceptions\DiscountNotEligibleException;
-use Codex\UserDiscounts\Exceptions\DiscountNotFoundException;
-use Codex\UserDiscounts\Exceptions\DiscountUsageExceededException;
-use Codex\UserDiscounts\Models\Discount;
-use Codex\UserDiscounts\Models\DiscountAudit;
-use Codex\UserDiscounts\Models\UserDiscount;
+use Naresh\UserDiscounts\Contracts\DiscountManager as DiscountManagerContract;
+use Naresh\UserDiscounts\Events\DiscountApplied;
+use Naresh\UserDiscounts\Events\DiscountAssigned;
+use Naresh\UserDiscounts\Events\DiscountRevoked;
+use Naresh\UserDiscounts\Exceptions\DiscountException;
+use Naresh\UserDiscounts\Exceptions\DiscountNotEligibleException;
+use Naresh\UserDiscounts\Exceptions\DiscountNotFoundException;
+use Naresh\UserDiscounts\Exceptions\DiscountUsageExceededException;
+use Naresh\UserDiscounts\Models\Discount;
+use Naresh\UserDiscounts\Models\DiscountAudit;
+use Naresh\UserDiscounts\Models\UserDiscount;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

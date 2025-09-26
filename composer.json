@@ -1,5 +1,5 @@
 {
-    "name": "codex-labs/user-discounts",
+    "name": "naresh/user-discount",
     "description": "Laravel package for managing user-level discounts with deterministic stacking",
     "type": "library",
     "license": "MIT",
@@ -13,18 +13,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Codex\\UserDiscounts\\": "src/"
+            "Naresh\\UserDiscounts\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Codex\\UserDiscounts\\Tests\\": "tests/"
+            "Naresh\\UserDiscounts\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Codex\\UserDiscounts\\Providers\\UserDiscountsServiceProvider"
+                "Naresh\\UserDiscounts\\Providers\\UserDiscountsServiceProvider"
             ]
         }
     },

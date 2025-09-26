@@ -1,6 +1,6 @@
 <?php
 
-namespace Codex\UserDiscounts\Tests\Support;
+namespace Naresh\UserDiscounts\Tests\Support;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Codex\UserDiscounts\Tests;
+namespace Naresh\UserDiscounts\Tests;
 
-use Codex\UserDiscounts\Providers\UserDiscountsServiceProvider;
-use Codex\UserDiscounts\Tests\Support\TestUser;
+use Naresh\UserDiscounts\Providers\UserDiscountsServiceProvider;
+use Naresh\UserDiscounts\Tests\Support\TestUser;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

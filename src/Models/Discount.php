@@ -1,6 +1,6 @@
 <?php
 
-namespace Codex\UserDiscounts\Models;
+namespace Naresh\UserDiscounts\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
